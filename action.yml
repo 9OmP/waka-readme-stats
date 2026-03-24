@@ -30,17 +30,17 @@ inputs:
   SHOW_OS:
     required: false
     description: 'Show the list of OS Worked on In dev metrics'
-    default: "True"
+    default: "False"
 
   SHOW_PROJECTS:
     required: false
     description: 'Show the list of projects worked on in dev metrics'
-    default: "True"
+    default: "False"
 
   SHOW_EDITORS:
     required: false
     description: 'Show the Editors used in dev metrics'
-    default: "True"
+    default: "False"
 
   SHOW_TIMEZONE:
     required: false
@@ -65,37 +65,37 @@ inputs:
   SHOW_LANGUAGE_PER_REPO:
     required: false
     description: "Show language or framework used across different repository"
-    default: "True"
+    default: "False"
 
   SHOW_LOC_CHART:
     required: false
     description: ""
-    default: "True"
+    default: "False"
 
   SHOW_DAYS_OF_WEEK:
     required: false
     description: "show day of week you are most productive"
-    default: "True"
+    default: "False"
 
   SHOW_PROFILE_VIEWS:
     required: false
     description: "Shows the current profile views"
-    default: "True"
+    default: "False"
 
   SHOW_SHORT_INFO:
     required: false
     description: "Shows the short facts"
-    default: "True"
+    default: "False"
 
   SHOW_UPDATED_DATE:
     required: false
     description: "Show updated date"
-    default: "True"
+    default: "False"
 
   SHOW_TOTAL_CODE_TIME:
     required: false
     description: "Show Total Time you have coded"
-    default: "True"
+    default: "False"
 
   COMMIT_BY_ME:
     required: false
